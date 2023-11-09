@@ -1,5 +1,5 @@
 # GreenHarbor
-![GreenHarbor](./greenharbor.jpg)
+<img src="./greenharbor.jpg" width="200" height="200" alt="GreenHarbor">
 
 
 GreenHarbor is a cutting-edge mobile application, crafted with React Native specifically for the freegan community. Our platform is dedicated to those who are passionate about sustainable living and reducing waste, providing a space where like-minded individuals can connect, share, and learn.
