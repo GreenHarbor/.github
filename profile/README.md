@@ -19,13 +19,14 @@ GreenHarbor addresses these needs with a dual-purpose approach:
 ## Microservice Architecture
 ![Microservices Diagram](./microservice.png)
 To support our solution, GreenHarbor is built on a microservice architecture that includes:
-- **Notification Service** (Node.js): Manages and sends out notifications for new listings and workshops.
-- **Authentication Service** (AWS Lambda): Provides secure signup and login functionalities.
-- **Workshop Service** (Gorilla Mux): Handles the creation and management of workshop listings.
-- **Logging Service** (NestJS): Logs user activities and system events for analytics and monitoring.
-- **Food Rescue Subscription** (Flask): Manages user subscriptions to food rescue notifications.
-- **Workshop Participation** (Flask): Manages user registrations for workshops.
-- **Workshop Management** (Flask): Oversees the workshop content and schedules.
+- **Notification Service** (Node.js): Manages and sends out notifications for new listings and workshops. [View Repository](https://github.com/GreenHarbor/notification)
+- **Authentication Service** (AWS Lambda): Provides secure signup and login functionalities. [View Repository](https://github.com/GreenHarbor/authentication)
+- **Workshop Service** (Gorilla Mux): Handles the creation and management of workshop listings. [View Repository](https://github.com/GreenHarbor/workshop)
+- **Logging Service** (NestJS): Logs user activities and system events for analytics and monitoring. [View Repository](https://github.com/GreenHarbor/logging)
+- **Food Rescue Subscription** (Flask): Manages user subscriptions to food rescue notifications. [View Repository](https://github.com/GreenHarbor/foodrescuesubscription)
+- **Workshop Participation** (Flask): Manages user registrations for workshops. [View Repository](https://github.com/GreenHarbor/workshopparticipation)
+- **Workshop** (Flask): Oversees the workshop content and schedules. [View Repository](https://github.com/GreenHarbor/workshop)
+
 
 All services are interconnected through RabbitMQ, ensuring efficient message queuing and service communication.
 
