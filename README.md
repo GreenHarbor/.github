@@ -1,6 +1,6 @@
 # GreenHarbor
+![GreenHarbor](./greenharbor.jpg)
 
-![Microservices Diagram](./microservices.png)
 
 GreenHarbor is a cutting-edge mobile application, crafted with React Native specifically for the freegan community. Our platform is dedicated to those who are passionate about sustainable living and reducing waste, providing a space where like-minded individuals can connect, share, and learn.
 
@@ -17,7 +17,7 @@ GreenHarbor addresses these needs with a dual-purpose approach:
 - **Workshop Platform**: Users can both advertise and sign up for workshops that are designed to enhance the skills of a freegan, from repairing to sustainable growing.
 
 ## Microservice Architecture
-
+![Microservices Diagram](./microservice.png)
 To support our solution, GreenHarbor is built on a microservice architecture that includes:
 - **Notification Service** (Node.js): Manages and sends out notifications for new listings and workshops.
 - **Authentication Service** (AWS Lambda): Provides secure signup and login functionalities.
