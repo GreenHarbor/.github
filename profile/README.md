@@ -48,7 +48,10 @@ Our application leverages the power and flexibility of AWS services, including:
 - **DynamoDB**: Hosts our NoSQL database for high-performance data retrieval.
 - **RDS**: Manages relational database services for structured data.
 - **SNS & SQS**: Handles message publishing and queuing.
-
+- **Simple Email Service**: A cost-effective, flexible, and scalable email service that enables us to send mail from within any application.
+- **App Mesh**: Simplifies networking and observability for our microservices.
+- **Cloud Map**: A cloud resource discovery service.
+  
 ![Solution Architecture Diagram](./sa.png)
 
 
