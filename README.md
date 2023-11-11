@@ -25,7 +25,7 @@ To support our solution, GreenHarbor is built on a microservice architecture tha
 - **Logging Service** (NestJS): Logs user activities and system events for analytics and monitoring. [View Repository](https://github.com/GreenHarbor/logging)
 - **Food Rescue Subscription** (Flask): Manages user subscriptions to food rescue notifications. [View Repository](https://github.com/GreenHarbor/foodrescuesubscription)
 - **Workshop Participation** (Flask): Manages user registrations for workshops. [View Repository](https://github.com/GreenHarbor/workshopparticipation)
-- **Workshop** (Flask): Oversees the workshop content and schedules. [View Repository](https://github.com/GreenHarbor/workshop)
+- **Food Rescue** (Flask): Oversees the food rescue application. [View Repository](https://github.com/GreenHarbor/foodrescue)
 
 
 All services are interconnected through RabbitMQ, ensuring efficient message queuing and service communication.
